@@ -5,7 +5,8 @@
 using namespace std;
 
 class TPen {
-
+	private:
+    string FColor;
 };
 
 int main() {
