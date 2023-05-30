@@ -11,7 +11,9 @@ class TPen {
     string getColor() {
         return FColor;
     }
-    
+    void setColor(string newColor) {
+        FColor = newColor;
+    }
 };
 
 int main() {
