@@ -22,5 +22,9 @@ int main() {
 	
 	ifstream inputFile("colors.txt");
 	
+	if (!inputFile) {
+        cerr << "Failed to open the input file." << endl;
+        return 1;
+    }
 	
 }
