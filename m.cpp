@@ -17,5 +17,6 @@ class TPen {
 };
 
 int main() {
-
+	const int ARRAY_SIZE = 5;
+    TPen pens[ARRAY_SIZE];
 }
