@@ -27,4 +27,10 @@ int main() {
         return 1;
     }
 	
+	string color;
+    int index = 0;
+    while (getline(inputFile, color) && index < ARRAY_SIZE) {
+        pens[index].setColor(color);
+        index++;
+    }
 }
