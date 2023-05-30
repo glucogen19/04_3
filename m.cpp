@@ -33,4 +33,11 @@ int main() {
         pens[index].setColor(color);
         index++;
     }
+	
+	cout << "Colors:" << endl;
+    for (int i = 0; i < ARRAY_SIZE; i++) {
+        cout << pens[i].getColor() << endl;
+    }
+
+    return 0;
 }
